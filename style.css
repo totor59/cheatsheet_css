@@ -1,2 +1,89 @@
 /*----------------GENERAL----------------*/
 
+body {
+	margin: 0;
+	padding:0;
+	background-color: #e3f2fd;
+}
+
+/*---------------LAYOUT CONTAINERS--------------*/
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.wrap {
+	min-height: 100vh;
+}
+.wrapper {
+	width: 100%;
+}
+
+/*---------------HEADER-----------------*/
+
+header {
+	height: 100px;
+	background: -moz-linear-gradient(bottom, #e3f2fd , #29A9DF); 
+}
+
+.logo {
+	margin-top: 10px;
+	height: 100px;
+	float: left;
+}
+
+.main-title {
+	float: right;
+	font-size: 1.5em;
+	font-family: 'Fjalla One';
+	color: #e3f2fd;
+}
+
+/*------------SECTION-------------*/
+/*
+.col {
+	display: inline-block;
+	width: 50%;
+	margin-right: -4px;
+}*/
+
+table {
+	margin: 20px 5px 0px 5px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid #1e88e5;
+	width: 50%;
+	background-color: #bbdefb;
+	font-family: 'Open Sans';
+}
+
+caption {
+	text-align: left;
+	background-color: #29A9Df;
+	color: #fff;
+	font-family: "Fjalla One";
+	font-weight: bold;
+	text-indent: 5px;
+	line-height: 40px;
+}
+
+/*-------------FOOTER-------------------*/
+
+footer {
+	height: 60px;
+	background: -moz-linear-gradient(top, #e3f2fd , #90caf9 90%); 
+	text-align: center;
+	min-width: 100%;
+}
+
+footer p {
+	display: inline-block;
+	vertical-align: bottom;
+	width: 100%;
+}
+	
+

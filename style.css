@@ -9,8 +9,8 @@ body {
 /*---------------LAYOUT CONTAINERS--------------*/
 
 .container {
-	width: 70%;
-	margin: 0 auto;
+	width: 90%;
+	margin: 0px auto;
 }
 
 .wrap {
@@ -39,15 +39,12 @@ header {
 }
 
 /*------------SECTION-------------*/
-/*
+
 .col {
-	display: inline-block;
-	width: 50%;
-	margin-right: -4px;
-}*/
+}
 
 table {
-	margin: 20px 5px 0px 5px;
+	margin: 0  5px;
 	width: 100%;
 	border-collapse: collapse;
 }
@@ -80,7 +77,31 @@ footer {
 
 footer p {
 	display: inline-block;
-	vertical-align: bottom;
 }
 	
+/*---------------RESPONSIVE----------------*/
 
+@media screen and (min-width: 600px) {
+             .col {
+		     display: inline-block;	
+		     width: 50%;
+	             margin-right: -4px;
+		     height: 805px;
+	     }
+	     .container {
+		     width: 70%;
+	     }
+	    .logo {
+		     height: 130px;
+	     }
+	     header {
+		     height: 130px;
+	     }
+	     .main-title {
+		     font-size: 2.5em;
+	     }
+	     footer {
+		     position: relative;
+		     bottom: 0;
+	     }
+     }

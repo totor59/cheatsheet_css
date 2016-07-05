@@ -16,9 +16,7 @@ body {
 .wrap {
 	min-height: 100vh;
 }
-.wrapper {
-	width: 100%;
-}
+
 
 /*---------------HEADER-----------------*/
 
@@ -77,13 +75,12 @@ footer {
 	height: 60px;
 	background: -moz-linear-gradient(top, #e3f2fd , #90caf9 90%); 
 	text-align: center;
-	min-width: 100%;
+	width: 100%;
 }
 
 footer p {
 	display: inline-block;
 	vertical-align: bottom;
-	width: 100%;
 }
 	
 
